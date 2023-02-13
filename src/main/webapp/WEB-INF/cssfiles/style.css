@@ -1,0 +1,116 @@
+@charset "UTF-8";
+*{
+  font-family: 'Times New Roman', serif;
+}
+.wallpaper{
+
+}
+
+h2{
+  text-align: center;
+}
+h1{
+  position: relative;
+  top: 20px;
+}
+h1,h3{
+  text-align: center;
+  color: black;
+}
+#form{
+  align-items: center;
+  position: relative;
+  bottom: 130px;
+}
+#form2{
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+}
+#form3{
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+#form4{
+  align-items: center;
+  position: relative;
+  bottom: 120px;
+}
+#form5{
+  align-items: center;
+  position: relative;
+ bottom: 110px;
+}
+
+
+.form-style {
+  margin: 10px auto;
+  width: 510px;
+  height: 300px;
+  padding: 20px 12px 10px 20px;
+  border-radius: 12%;
+  align-items: center;
+  background: beige;
+  opacity: 0.8;
+  top: 15px;
+  position: relative;
+}
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+.form-style label{
+  margin:0 0 5px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+  color: black;
+}
+
+.form-style input[type=submit], .form-style input[type=reset]{
+  padding: 8px 10px 8px 10px;
+  width: 100px;
+  border: none;
+  background: #51c41f;
+  /* background: linear-gradient(148deg, rgba(62,201,230,1) 0%, rgba(255,240,15,1) 97%); */
+  color: #fff;
+  border-radius: 25px;
+  position: relative;
+  left: 40%;
+
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: #5ebb1d;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 150px;
+}
+
+.form-style input[type=text],.form-style input[type=password]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  border-radius: 25px;
+  color: black;
+  outline: none;
+}
+.form-style .long{
+  width: 100%;
+
+}
+.form-style input[type=text]:focus, .form-style input[type=password]:focus{
+  -moz-box-shadow: 0 0 8px #898d88;
+  -webkit-box-shadow: 0 0 8px #8b8f8a;
+  box-shadow: 0 0 8px #a4a8a2;
+ background-color: #d9efcb;
+  border: 1px solid #6c8a5f
+}

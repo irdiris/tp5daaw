@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+  font-family: 'Times New Roman', serif;
+}
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(111,144,97);
+border-radius: 5px;
+  position: relative;
+  bottom: 70px;
+}
+
+li {
+  float: left;
+  border-right:2px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+li a:hover {
+  background-color: #bdd4b3;
+}
